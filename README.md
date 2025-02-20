@@ -20,6 +20,6 @@ This project showcases how to build a high-performance, real-time data streaming
 
 1. **Clone the repository:**
 
-   ```bash
+   
    git clone [https://github.com/yogesh2i/stockStream](https://www.google.com/search?q=https://github.com/yogesh2i/stockStream.git)
    cd stockStream
