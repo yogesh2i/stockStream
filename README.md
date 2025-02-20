@@ -31,7 +31,7 @@ This project showcases how to build a high-performance, real-time data streaming
    npm install
    ```
 
- ##Usage
+ ## Usage
 
 1. **Running the server**
 
@@ -57,7 +57,7 @@ This project showcases how to build a high-performance, real-time data streaming
       2. Example US stock tickers -  "AAPL", "GOOG" (can be used between 8:00PM IST - 02:00AM IST)
 
 
-##Contributing
+## Contributing
 Contributions are welcome!  Please open an issue or submit a pull request.      
           
 
