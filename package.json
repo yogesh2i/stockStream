@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@grpc/grpc-js": "^1.12.6",
+    "@grpc/proto-loader": "^0.7.13",
+    "@grpc/reflection": "^1.0.4",
+    "protobufjs": "^7.4.0",
+    "ws": "^8.18.0"
+  },
+  "name": "stock_stream",
+  "version": "1.0.0",
+  "description": "streams live real-time stock price using yahoo socket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "socket",
+    "grpc",
+    "nodejs"
+  ],
+  "author": "yogesh",
+  "license": "ISC"
+}

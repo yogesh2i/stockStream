@@ -1,0 +1,28 @@
+syntax = 'proto3';
+
+message stockLiveRequest{
+    string ticker = 1;
+}
+
+message Data{
+  string id = 1;
+  double price = 2;
+  int64 time = 3;
+  string exchange = 4;
+  string quoteType = 5;
+  string marketHours = 6;
+  double changePercent = 7;
+  int64 dayVolume = 8;
+  double change = 9;
+  int64 lastSize = 10;
+  int32 priceHint = 11;
+}
+
+message stockLiveResponse{
+    string error = 1;
+    Data data = 2;
+}
+
+service stockLive{
+    rpc stockStream(stockLiveRequest) returns (stream stockLiveResponse);
+}
