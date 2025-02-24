@@ -1,0 +1,8 @@
+services:
+  stockstream:
+    build:
+      context: . 
+      dockerfile: dockerfile  
+    ports:
+      - "50050:50050"
+    
